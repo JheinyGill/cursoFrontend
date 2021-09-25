@@ -1,5 +1,9 @@
-.form-control {
+*{
+    background-color: lightpink;
+}
 
+.form-control{
+    background-color: white;
 }
 
 a {
@@ -9,52 +13,15 @@ a {
 img {
     width: 200px;
     height: 150px;
+    margin-top: 20px;
 }
 
 .texto1 {
     font-size: 1.5em;
+    color: blueviolet;
 }
 
 #texto2 {
     font-size: 1.5em;
+    color: crimson;
 }
-
-.cuadro1{
-    width: ;
-}
-
-
-
-
-main{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-main div{
-    width: 500px;
-    height: 300px;
-}
-
-main div:nth-child(1){
-    background-color: aqua;
-}
-
-main div:nth-child(2){
-    background-color: blue;
-}
-
-main div:nth-child(3){
-    background-color: blueviolet;
-}
-
-main div:nth-child(4){
-    background-color: red;
-}
-
-main div:nth-child(5){
-    background-color: brown;
-}
-
-main div:nth-child(6){
-    background-color: aqua;

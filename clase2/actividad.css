@@ -1,0 +1,38 @@
+* {
+    background-color: lightblue;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+main div{
+    width: 500px;
+    height: 300px;
+}
+
+main div:nth-child(1){
+    background-color: chartreuse;
+}
+
+main div:nth-child(2){
+    background-color: deeppink;
+}
+
+main div:nth-child(3){
+    background-color: blueviolet;
+}
+
+main div:nth-child(4){
+    background-color: gold;
+}
+
+main div:nth-child(5){
+    background-color: darkorange;
+}
+
+main div:nth-child(6){
+    background-color: mediumspringgreen;
+}
