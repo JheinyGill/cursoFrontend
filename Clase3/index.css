@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+/* Estilos del documento html Index*/
+
+/* ------------------- body ----------------- */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    background-color: aliceblue; 
+}
+
+/* ----------------------- header ---------------------- */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #c1e1ff;
+    border-bottom: 2px solid darkgray;
+}
+
+header div{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* column one */
+header div .content-logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: #c1e1ff;
+    align-items: center;
+}
+
+header div .content-logo img{
+    width: 60px;
+    height: 60px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color: #c1e1ff;
+}
+
+header div .content-logo p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: hsl(233, 100%, 62%);
+    background-color: #c1e1ff;
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* column two */
+header div .content-nav{
+    width: 60%;
+    background-color: #c1e1ff;
+}
+
+header div .content-nav nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1e1ff;
+}
+
+header div .content-nav nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    background-color: #c1e1ff;
+}
+
+header div .content-nav nav ul li{
+    list-style: none;
+    padding: 5px 10px;
+    background-color: #c1e1ff;
+}
+
+header div .content-nav nav ul li a{
+    text-decoration: none;
+    color: #020202;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.3em;
+    background-color: #c1e1ff;
+}
+
+/* column three */
+header div .content-logs{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c1e1ff;
+}
+
+header div .content-logs div:nth-child(1){
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 10px;
+    background-color: #c1e1ff;
+}
+header div .content-logs div:nth-child(1) a svg{
+    width: 32px;
+    height: 32px;
+    background-color: #c1e1ff;
+}
+header div .content-logs div:nth-child(2){
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #c1e1ff;
+}
+header div .content-logs div:nth-child(2) a svg{
+    width: 32px;
+    height: 32px;
+    background-color: #c1e1ff;
+}
+
+/* -------------------------- main ------------------------- */
+
+main .img-intro{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+/* ------------------- Table -----------------*/
+
+h1{
+    text-align: center;
+    margin-top: 50;
+    margin-bottom: 40px;
+    color: hsl(233, 100%, 62%);
+}
+
+main .table{
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+    border: hsl(233, 100%, 62%) 1px solid;
+  }
+  
+td {
+    margin: 15px;
+    padding: 15px;
+    border: hsl(233, 100%, 62%) 1px solid;
+    
+}
+
+th {
+    margin: 15px;
+    padding: 15px;
+    font-weight: bold;
+    border: hsl(233, 100%, 62%) 1px solid;
+}
+
+/* ------------------- Video ----------------- */
+hr{
+    margin-top: 50px;
+    width: 80%;
+    border: hsl(233, 100%, 62%) 2px solid;
+}
+
+.video{
+    margin-top: 50px;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------- Prductos del mes ---------------*/
+.PM1{
+    margin-top: 10px;
+    margin-left: 110px;
+    float:left;
+    background-color:hsl(233, 100%, 68%);
+  }
+
+.PM2{
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-bottom: 50px;
+    float:left;
+    background-color:hsl(233, 100%, 68%);
+}
+
+p{
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    background-color:hsl(233, 100%, 68%);
+}
+  
+/* ----------------------------- footer --------------------- */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    background-color: #c1e1ff;
+    border-top: 2px solid darkgray;
+}
+
+footer div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #c1e1ff;
+}
+
+footer div span{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: darkgray;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    background-color: #c1e1ff;
+}
